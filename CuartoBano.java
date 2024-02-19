@@ -11,6 +11,7 @@ public class CuartoBano
     private String formaBano;
     private Retrete retrete;
 
+    
     /**
      * Constructor for objects of class CuartoBaño
      */

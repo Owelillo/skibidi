@@ -1,5 +1,6 @@
 public class Escobilla
 {
+    
     private String marcaEscobilla;
     private boolean hayDeRepuesto;
 
