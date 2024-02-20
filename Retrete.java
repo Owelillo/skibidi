@@ -1,13 +1,16 @@
 public class Retrete
 {
     private String marcaRetrete;
-
+    boolean estadoRetrete;
+    Escobilla escobilla;
     /**
      * Constructor for objects of class Retrete
      */
     public Retrete()
     {
         String marcaRetrete = "RoCACAlcinada";
+        estadoRetrete = true;
+        escobilla = escobilla;
     }
 
     /**
@@ -19,5 +22,15 @@ public class Retrete
     public String getMarcaRetrete()
     {
         return marcaRetrete;
+    }
+
+    public boolean getEstadoRetrete()
+    {
+        return estadoRetrete;
+    }
+
+    public Escobilla getEscobilla()
+    {
+        return escobilla;
     }
 }
