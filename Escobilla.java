@@ -12,9 +12,9 @@ public class Escobilla
      */
     public Escobilla()
     {
-        String marcaEscobilla = "CulitoLimpito";
-        boolean hayDeRepuesto = true;
-        String calidadEscobilla = "Calidad mansilla";
+        marcaEscobilla = "CulitoLimpito";
+        hayDeRepuesto = true;
+        calidadEscobilla = "Calidad mansilla";
     }
 
     public String getMarcaEscobilla()
@@ -29,5 +29,8 @@ public class Escobilla
     public String calidadEscobilla(){
         return calidadEscobilla;
     }
-
+    
+    public void imprimirEscobilla() {
+        System.out.println("Marca " + marcaEscobilla + " | Repuesto: " + hayDeRepuesto + " | Calidad: " + calidadEscobilla);
+    }
 }
