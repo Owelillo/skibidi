@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=CuartoBano
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ CuartoBa\u00F1o\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=CuartoBano()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ CuartoBa\u00F1o\r\n
+comment2.params=
+comment2.target=int\ getMetrosCuadrados()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getFormaBano()
+comment4.params=nuevaMedida
+comment4.target=void\ setMetrosCuadrados(int)
+comment5.params=nuevaForma
+comment5.target=void\ setNuevaForma(java.lang.String)
+comment6.params=
+comment6.target=Retrete\ getRetrete()
+comment7.params=
+comment7.target=void\ imprimirBa\u00F1o()
+numComments=8

@@ -25,12 +25,21 @@ public class Escobilla
     public boolean hayDeRepuesto(){
         return hayDeRepuesto;
     }
-
+      public void setRepuesto(){
+        this.hayDeRepuesto = !hayDeRepuesto;
+    }
+      public void setMarcaEscobilla(String nuevaMarca){
+        this.marcaEscobilla = nuevaMarca;
+    }
+    
+      public void setCalidadEscobilla(String nuevaCalidad){
+        this.calidadEscobilla = nuevaCalidad;
+    }
     public String calidadEscobilla(){
         return calidadEscobilla;
     }
     
     public void imprimirEscobilla() {
-        System.out.println("Marca " + marcaEscobilla + " | Repuesto: " + hayDeRepuesto + " | Calidad: " + calidadEscobilla);
+        System.out.println("Marca: " + marcaEscobilla + " | Repuesto: " + hayDeRepuesto + " | Calidad: " + calidadEscobilla);
     }
 }

@@ -8,7 +8,7 @@ public class Retrete
      */
     public Retrete()
     {
-        String marcaRetrete = "RoCACAlcinada";
+        marcaRetrete = "RoCACAlcinada";
         estadoRetrete = true;
         escobilla = escobilla;
     }
@@ -23,6 +23,12 @@ public class Retrete
     {
         return marcaRetrete;
     }
+      public void setNuevaMarca(String nuevaMarca){
+        this.marcaRetrete= nuevaMarca;
+    }
+       public void setEstadoRetrete(){
+        this.estadoRetrete = !estadoRetrete;
+    }
 
     public boolean getEstadoRetrete()
     {
@@ -32,5 +38,8 @@ public class Retrete
     public Escobilla getEscobilla()
     {
         return escobilla;
+    }
+    public void imprimirRetrete() {
+        System.out.println("Marca: " + getMarcaRetrete() + " " + "Estado del Retrete: " + " " + getEstadoRetrete());
     }
 }

@@ -17,7 +17,9 @@ public class CuartoBano
      */
     public CuartoBano()
     {
-        metrosCuadrados = 0;
+        metrosCuadrados = 4;
+        formaBano = "Romboide";
+        retrete = retrete;
     }
 
     /**
@@ -36,8 +38,18 @@ public class CuartoBano
         return formaBano;
     }
 
-    public String getRetrete()
+    public void setMetrosCuadrados(int nuevaMedida){
+        this.metrosCuadrados = nuevaMedida;
+    }
+    public void setNuevaForma(String nuevaForma){
+        this.formaBano = nuevaForma;
+    }
+    
+    public Retrete getRetrete()
     {
         return retrete;
+    }
+     public void imprimirBaño() {
+        System.out.println("Metros cuadrados: " + getMetrosCuadrados() + " Forma del Baño: " + getFormaBano());
     }
 }

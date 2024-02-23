@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Retrete
+comment1.params=
+comment1.target=Retrete()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Retrete\r\n
+comment2.params=
+comment2.target=java.lang.String\ getMarcaRetrete()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=nuevaMarca
+comment3.target=void\ setNuevaMarca(java.lang.String)
+comment4.params=
+comment4.target=void\ setEstadoRetrete()
+comment5.params=
+comment5.target=boolean\ getEstadoRetrete()
+comment6.params=
+comment6.target=Escobilla\ getEscobilla()
+comment7.params=
+comment7.target=void\ imprimirRetrete()
+numComments=8
