@@ -10,7 +10,7 @@ public class Retrete
     {
         marcaRetrete = "RoCACAlcinada";
         estadoRetrete = true;
-        escobilla = escobilla;
+        escobilla = new Escobilla();
     }
 
     /**
@@ -40,6 +40,6 @@ public class Retrete
         return escobilla;
     }
     public void imprimirRetrete() {
-        System.out.println("Marca: " + getMarcaRetrete() + " " + "Estado del Retrete: " + " " + getEstadoRetrete());
+        System.out.println("Marca: " + getMarcaRetrete() + " " + "Estado del Retrete: " + " " + getEstadoRetrete() + "|| Marca de la escobilla: " + escobilla.getMarcaEscobilla() + " || ¿Hay de repuesto? " + escobilla.getRepuesto());
     }
 }

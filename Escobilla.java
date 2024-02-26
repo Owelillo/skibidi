@@ -22,7 +22,7 @@ public class Escobilla
         return marcaEscobilla;        
     }
 
-    public boolean hayDeRepuesto(){
+    public boolean getRepuesto(){
         return hayDeRepuesto;
     }
       public void setRepuesto(){
