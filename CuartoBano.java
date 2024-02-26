@@ -10,6 +10,7 @@ public class CuartoBano
     private int metrosCuadrados;
     private String formaBano;
     private Retrete retrete;
+    private Escobilla escobilla;
     
     /**
      * Constructor for objects of class CuartoBaño
@@ -18,8 +19,8 @@ public class CuartoBano
     {
         metrosCuadrados = 4;
         formaBano = "Romboide";
-        retrete = retrete;
-        retrete = new Retrete();        
+        retrete = new Retrete();     
+        escobilla = new Escobilla();
     }
 
     /**
@@ -49,7 +50,7 @@ public class CuartoBano
     {
         return retrete;
     }
-     public void imprimirBaño() {
-        System.out.println("Metros cuadrados: " + getMetrosCuadrados() + " || Forma del Baño: " + getFormaBano() + " || Marca del retrete: " + retrete.getMarcaRetrete() + " || Estado del retrete: "+ retrete.getEstadoRetrete());
-    }
-}
+     public String imprimirBaño() {
+     return "Metros cuadrados: " + getMetrosCuadrados() + " || Forma del Baño: " + getFormaBano() + retrete.devolverRetrete() + escobilla.devolverEscobilla();
+
+    }}

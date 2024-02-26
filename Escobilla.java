@@ -42,4 +42,7 @@ public class Escobilla
     public void imprimirEscobilla() {
         System.out.println("Marca: " + marcaEscobilla + " | Repuesto: " + hayDeRepuesto + " | Calidad: " + calidadEscobilla);
     }
+    public String devolverEscobilla() {
+        return "Marca: " + marcaEscobilla + " | Repuesto: " + hayDeRepuesto + " | Calidad: " + calidadEscobilla;
+    }
 }

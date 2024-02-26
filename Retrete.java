@@ -42,4 +42,7 @@ public class Retrete
     public void imprimirRetrete() {
         System.out.println("Marca: " + getMarcaRetrete() + " " + "Estado del Retrete: " + " " + getEstadoRetrete() + "|| Marca de la escobilla: " + escobilla.getMarcaEscobilla() + " || ¿Hay de repuesto? " + escobilla.getRepuesto());
     }
+    public String devolverRetrete() {
+        return "Marca: " + getMarcaRetrete() + " " + "Estado del Retrete: " + " " + getEstadoRetrete() + "|| Marca de la escobilla: " + escobilla.getMarcaEscobilla() + " || ¿Hay de repuesto? " + escobilla.getRepuesto();
+    }
 }
